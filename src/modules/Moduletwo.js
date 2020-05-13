@@ -1,10 +1,6 @@
-import Par from '../lib/Parentclass'
-import dec from '../lib/decorator'
+import header from '../components/modulestwo/'
 
-import header from '../components/header'
-
-@dec
-export default class Modulesone extends Par{
+export default class Moduleone extends Par{
     constructor(el){
         super();
         this.name = "Modulesone"

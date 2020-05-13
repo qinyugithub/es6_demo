@@ -1,11 +1,12 @@
-import Modulesone from '../modules/Modulesone'
+import Moduleone from '../modules/Moduleone'
 ;((doc) => {
 
     const app = doc.getElementById("app");
     const init = () => {
-        new Modulesone(app).init();
-    }
+        new Moduleone(app).init();
+    };
 
     init();
+
 
 })(document);
