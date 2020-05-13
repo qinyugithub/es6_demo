@@ -3,7 +3,7 @@ import Modulesone from '../modules/Modulesone'
 
     const app = doc.getElementById("app");
     const init = () => {
-        new Modulesone().init();
+        new Modulesone(app).init();
     }
 
     init();
